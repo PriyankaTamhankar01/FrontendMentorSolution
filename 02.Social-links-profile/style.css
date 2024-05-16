@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* Variables */
+:root {
+  /* Colors */
+  --primary-color: hsl(75, 94%, 57%);
+  --white-color: hsl(0, 0%, 100%);
+  --grey-color: hsl(0, 0%, 20%);
+  --dark-grey-color: hsl(0, 0%, 12%);
+  --off-black-color: hsl(0, 0%, 8%);
+  
+  /* Typography */
+  --body-font-size: 14px;
+  --font-family: 'Inter', sans-serif;
+  --fw-normal: 400;
+  --fw-medium: 500; 
+  --fw-bold: 700;
+}
+
+/* Body Styles */
+body {
+  font-family: var(--font-family);
+  font-size: var(--body-font-size);
+  font-weight: var(--fw-normal);
+  background-color: var(--off-black-color);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card Styles */
+.card {
+  background-color: var(--dark-grey-color);
+  color: var(--white-color);
+  padding: 2rem;
+  max-width: 400px;
+  text-align: center;
+  border-radius: .75rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding a subtle box shadow for depth */
+}
+
+.card img {
+  margin-bottom: .5rem;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+
+.card h2 {
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem; /* Added margin for separation */
+}
+
+p {
+  color: var(--primary-color);
+  margin-bottom: 1rem; /* Adjusted margin for better spacing */
+  font-weight: var(--fw-bold);
+}
+
+.description {
+  color: var(--white-color);
+  font-weight: var(--fw-normal);
+}
+
+.card ul {
+  margin-top: 1.75rem;
+  padding-left: 0; 
+}
+
+.card-body {
+  margin-top: 2rem; 
+}
+
+/* Social Links Styles */
+.social-links li {
+  margin-bottom: 1rem;
+}
+
+.social-links li a {
+  display: block;
+  background-color: var(--grey-color);
+  color: var(--white-color);
+  padding: 1rem 0;
+  border-radius: 1rem;
+  font-weight: var(--fw-medium);
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.social-links li a:hover {
+  background-color: var(--primary-color);
+  color: var(--off-black-color);
+}

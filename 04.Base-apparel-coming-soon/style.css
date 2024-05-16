@@ -1,0 +1,293 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+:root {
+  font-size: 62.5%;
+
+  /* Colors */
+  --DesaturatedRed: hsl(0, 36%, 70%);
+  --SoftRed: hsl(0, 93%, 68%);
+  --DarkGrayishRed: hsl(0, 6%, 24%);
+}
+
+* {
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Josefin Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  height: 100vh;
+  font-size: 1.6rem;
+  background: linear-gradient(
+    135deg,
+    from hsl(0, 0%, 100%),
+    to hsl(0, 100%, 98%)
+  );
+}
+
+.container .hero-img{
+  width: 100%;
+  height: 100%;
+  background: url(/images/hero-desktop.jpg)no repeat;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 100%;
+  height: 100%;
+}
+
+.section-logo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  grid-column: 1;
+  grid-row: 1;
+  height: 20%;
+  padding-inline: 5rem;
+  z-index: 1;
+}
+
+.section-logo .logo {
+  width: 100%;
+  max-width: 45rem;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  grid-column: 1;
+  grid-row: 1;
+  padding-inline: 5rem;
+  background: url(/images/bg-pattern-desktop.svg) center center no-repeat;
+  background-size: cover;
+}
+
+.main-content .content {
+  align-self: flex-end;
+  width: 100%;
+  max-width: 45rem;
+  height: 80%;
+}
+
+.main-content .main-sectionText {
+  width: 100%;
+}
+
+.main-content .main-sectionText h1 {
+  text-transform: uppercase;
+  margin-top: 12rem;
+  font-size: 7rem;
+  font-weight: 600;
+  letter-spacing: 1.5rem;
+  color: var(--DarkGrayishRed);
+}
+
+.main-content .main-sectionText span {
+  font-weight: 300;
+  color: var(--DesaturatedRed);
+}
+
+.main-content .main-sectionText p {
+  margin-top: 3rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+  color: var(--DesaturatedRed);
+}
+
+.main-sectionEmail {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+  gap: 1rem;
+}
+
+.main-sectionEmail .email-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 5.5rem;
+  border-radius: 3rem;
+  border: 0.1rem solid var(--DesaturatedRed);
+}
+
+.main-sectionEmail .email-container .inputEmail {
+  width: 100%;
+  height: 100%;
+  padding-left: 3.5rem; 
+  border-radius: 3rem;
+  border: none;
+  font-size: 1.6rem;
+  font-weight: 400;
+  background: transparent;
+}
+
+.main-sectionEmail .email-container .inputEmail::placeholder {
+  font-size: 1.5rem;
+  color: var(--DesaturatedRed);
+}
+
+.main-sectionEmail .email-container .submit {
+  cursor: pointer;
+  border: none;
+  width: 14rem;
+  height: 100%;
+  border-radius: 3rem;
+  box-shadow: 0.2rem 0.2rem 0.2rem hsl(0, 74%, 74%, 0.4);
+  background: linear-gradient(hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+}
+
+
+
+
+.main-sectionEmail .email-container .submit:hover,.main-sectionEmail .email-container .submit:focus {
+  background: hsl(0, 80%, 86%);
+}
+
+.main-sectionEmail .email-container .error_Icon {
+  display: none;
+  cursor: text;
+  margin-right: 2rem;
+}
+
+.main-sectionEmail .error-msg {
+  display: none;
+  padding-left: 3rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--SoftRed);
+}
+.container .hero-img {
+  grid-column: 2;
+  grid-row: 1;
+  height: 100%;
+  background: url(/images/hero-desktop.jpg) no-repeat;
+  background-size: cover;
+}
+
+@media screen and(min-width:2000px)
+{
+    .section-logo{height: 30%;}
+    .section-logo .logo{max-width: 55%;}
+    .main-content .content{
+      max-width: 55%;
+      height: 70%;
+    }
+    .main-content .main-sectionText{
+      width: 80%;
+    }
+}
+
+@media screen and(min-width:765px){
+  .main-content{
+    padding-inline:1.5rem;
+  }
+
+  .main-content .main-sectionText{
+    text-align: center;
+  }
+
+  .main-content .main-sectionText h1{
+    width: 93%;
+    margin-top: 6rem;
+    font-size: 3rem;
+  }
+
+  .main-sectionEmail .email-container .submit{
+    width: 10rem;
+  }
+
+  .main-sectionEmail .email-container .error_Icon{
+    margin-right: .5rem;
+  }
+
+  .main-sectionEmail .error-msg{
+    padding-left: 2rem;
+  }
+}
+
+@media screen and (max-width :425px) {
+  body{
+    height:100%;
+  }
+
+  .container{
+    grid-template-columns: 1fr;
+    grid-template-rows: 334px 572px;
+    min-width: 320px;
+  }
+
+  .section-logo{
+    justify-content: flex-start;
+    align-items: center;
+    grid-column: 1;
+    grid-row: 1;
+    height: 8.4rem;
+  }
+
+  .section-logo .logo{
+    max-width: 12rem;
+  }
+
+  .main-content{
+    grid-column: 1;
+    grid-row: 2;
+    height: 100%;
+    padding-inline: 2rem;
+  }
+
+  .main-content .content{
+    align-self: flex-start;
+  }
+
+  .main-content .main-sectionText{
+    text-align: center;
+  }
+
+  .main-content .main-sectionText h1{
+    margin-top: 7rem;
+    font-size: 4rem;
+  }
+
+  .main-content .main-sectionText p {
+    margin-top: 2.5rem;
+    font-size: 1.3rem;
+  }
+
+  .main-sectionEmail .email-container .submit{
+    width: 10rem;
+  }
+
+  .main-sectionEmail .email-container .error_Icon{
+    margin-right: .5rem;
+  }
+
+  .main-sectionEmail .error-msg{
+    padding-left: 2rem;
+  }
+
+ .container .hero-img{
+    align-self: flex-end;
+    grid-column: 1;
+    grid-row: 1;
+    width: 100%;
+    max-width: 42.5rem;
+    height: 25rem;
+    margin:  0 auto;
+    background: url(/images/hero-mobile.jpg) left center no-repeat;
+    background-size: cover;
+  }
+  
+
+}
+
+
