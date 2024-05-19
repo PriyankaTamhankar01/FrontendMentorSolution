@@ -44,7 +44,7 @@ const projects = [
   },
   {
     name: 'FAQ accordion',
-    slug: '03.FAQ accordion',
+    slug: '03.FAQ-accordion',
     tags: ['html', 'css'],
     description:
       'Develop an interactive FAQ accordion component based on the design specs. Ensure smooth transitions and responsive design.',
