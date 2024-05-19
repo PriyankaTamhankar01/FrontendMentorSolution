@@ -30,28 +30,28 @@ function projectToHtml({ name, slug, tags, description }) {
 const projects = [
   {
     name: 'Order-summary-component',
-    slug: 'order-summary-component',
+    slug: '01.Order-summary-component',
     tags: ['html', 'css'],
     description:
       "Build a detailed Order Summary card that closely matches the provided design. Focus on layout and design precision.",
   },
   {
     name: 'Social-links-profile',
-    slug: 'social-links-profile',
+    slug: '02.Social-links-profile',
     tags: ['html', 'css'],
     description:
       'Create a Social Links Profile card that replicates the design given. Emphasize accurate styling and layout techniques.',
   },
   {
     name: 'FAQ accordion',
-    slug: 'fAQ accordion',
+    slug: '03.FAQ-accordion',
     tags: ['html', 'css'],
     description:
       'Develop an interactive FAQ accordion component based on the design specs. Ensure smooth transitions and responsive design.',
   },
   {
     name: 'Base Apparel coming soon page',
-    slug: 'base-apparel-coming-soon',
+    slug: '04.Base-apparel-coming-soon',
     tags: ['html', 'css', 'js'],
     description:
       "Construct a Coming Soon page for Base Apparel. Pay attention to CSS details and implement basic form validation for the email input.",

@@ -8,16 +8,3 @@ files for easy navigation and exploration. Feel free to browse through and check
 
 ## Challenges
 
-                         |
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Acknowledgments
-
-I would like to express my gratitude to:
-
-- Frontend Mentor for providing these engaging challenges that help me enhance my skills and build real-world projects.
-- The supportive and inspiring community members at Frontend Mentor. Your feedback and discussions have been invaluable
-  in my learning journey.
