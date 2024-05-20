@@ -3,14 +3,13 @@
 </div>
 
 Welcome to my Frontend Mentor Challenges repository! This is where I showcase my solutions to a range of Frontend Mentor
-projects. Each project is neatly organized within its own directory, which includes separate HTML, CSS, and JavaScript
-files for easy navigation and exploration. Feel free to browse through and check out my work!
+projects. 
 
 ## Challenges
 
 | #  | Project                                                                                                                                | Live Demo                                                                                                         |
 |:--:|----------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| 01 | [Order summary Component](https://github.com/PriyankaTamhankar01/FrontendMentorSolution/tree/main/01.Order-summary-component)       | [Live Demo](https://frontendmentorsolution-priyanka.netlify.app/01.order-summary-component/)    |
-| 02 | [Social links profile](https://github.com/PriyankaTamhankar01/FrontendMentorSolution/tree/main/02.Social-links-profile)           | [Live Demo](https://frontendmentorsolution-priyanka.netlify.app/02.social-links-profile/)      |
-| 03 | [FAQ accordion](https://github.com/PriyankaTamhankar01/FrontendMentorSolution/tree/main/03.Faq-accordion)                   | [Live Demo](https://frontendmentorsolution-priyanka.netlify.app/03.faq-accordion/)           |
-| 04 | [Base Apparel coming soon](https://github.com/PriyankaTamhankar01/FrontendMentorSolution/tree/main/04.Base-apparel-coming-soon)                   | [Live Demo](https://frontendmentorsolution-priyanka.netlify.app/04.base-apparel-coming-soon/)           |
+| 01 | [Order summary Component](https://github.com/PriyankaTamhankar01/FrontendMentorSolution/tree/main/01.Order-summary-component)          | [Live Demo](https://frontendmentorsolution-priyanka.netlify.app/01.order-summary-component/)                      |
+| 02 | [Social links profile](https://github.com/PriyankaTamhankar01/FrontendMentorSolution/tree/main/02.Social-links-profile)                | [Live Demo](https://frontendmentorsolution-priyanka.netlify.app/02.social-links-profile/)                         |
+| 03 | [FAQ accordion](https://github.com/PriyankaTamhankar01/FrontendMentorSolution/tree/main/03.Faq-accordion)                              | [Live Demo](https://frontendmentorsolution-priyanka.netlify.app/03.faq-accordion/)                                |
+| 04 | [Base Apparel coming soon](https://github.com/PriyankaTamhankar01/FrontendMentorSolution/tree/main/04.Base-apparel-coming-soon)        | [Live Demo](https://frontendmentorsolution-priyanka.netlify.app/04.base-apparel-coming-soon/)                     |
