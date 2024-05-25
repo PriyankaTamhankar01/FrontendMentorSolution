@@ -56,6 +56,13 @@ const projects = [
     description:
       "Construct a Coming Soon page for Base Apparel. Pay attention to CSS details and implement basic form validation for the email input.",
   },
+  {
+    name: 'Advice generator app',
+    slug: '05.Advice-generator-app',
+    tags: ['html', 'css', 'js'],
+    description: 
+      "Build an interactive Advice Generator app using an API to fetch and display random advice. Focus on styling with CSS and ensure a responsive design and smooth user experience with JavaScript."
+  }
 
 ];
 const projectsList = document.querySelector('.js-projects-list');
